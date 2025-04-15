@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>jQuery Mobile</title>
+
+  <!-- jQuery Mobile CSS and JS -->
+  <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+  <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+
+  <!-- Home Page -->
+  <div data-role="page" id="home">
+    <div data-role="header" style="display: flex;  align-items: center; padding: 10px;">
+  
+        <!-- Left Logo -->
+        <img src="https://www.pccoer.com/images/pccoer-logo.webp" alt="PCET Logo" style="height: 110px;">
+      
+        <!-- Title -->
+        <div style="text-align: center; flex: 1;">
+          <h1 style="font-size: 30px;">Pimpri Chinchwad College Of Engineering And Research, Ravet</h1>
+          <h4 style="font-size: 15px;">An Autonomous Institute | NAAC A++ Accredited | NBA Accredited | An ISO 21001:2018 Certified</h4>
+          <h3 style="font-size: 16px;">(Approved by Govt. of Maharashtra, Affiliated to SPPU, Approved by AICTE, DTE CODE - 6822)</h3>
+        </div>
+      
+        <!-- Right Logo -->
+        <img src="https://www.campusoption.com/images/colleges/logos/04_01_17_110017_logo.jpg
+        " alt="PCCOER Logo" style="height: 100px;">
+      </div>
+      
+      
+
+    <div data-role="content">
+        <center><h3>Welcome to PCCOER!</h3></center>
+      
+        <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 20px;">
+      
+          <!-- Card 1 -->
+          <div class="ui-corner-all" style="width: 300px; border: 1px solid #ccc; padding: 10px;">
+            <img src="https://www.pccoer.com/images/about-pcet.png" alt="ABOUT PCET" style="width: 100%; border-radius: 10px;">
+            <h4>About PCET</h4>
+            <div>
+              PCET was started in 1990 by Late Shri. S. B. Patil to offer quality education from nursery to PhD.
+            </div>
+          </div>
+      
+          <!-- Card 2 -->
+          <div class="ui-corner-all" style="width: 300px; border: 1px solid #ccc; padding: 10px;">
+            <img src="https://www.pccoer.com/images/about-pccoer.webp" alt="ABOUT PCCOER" style="width: 100%; border-radius: 10px;">
+            <h4>About PCCOER</h4>
+            <div>
+              Established in 2014 under PCET, PCCOER offers UG programs in four engineering disciplines.
+            </div>
+          </div>
+      
+          <!-- Card 3 -->
+          <div class="ui-corner-all" style="width: 300px; border: 1px solid #ccc; padding: 10px;">
+            <img src="https://www.pccoer.com/images/principal-desk.png" alt="PRINCIPAL'S DESK" style="width: 100%; border-radius: 10px;">
+            <h4>Principal's Desk</h4>
+            <div>
+              Welcome to PCCOER! Our principal aims to guide students with excellence, values, and discipline.
+            </div>
+          </div>
+      
+        </div>
+      </div>
+      
+      
+
+    <div data-role="navbar">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#dept">Department</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+
+    <div data-role="footer">
+      <h4>Quick Access</h4>
+    </div>
+  </div>
+
+  <!-- About Page -->
+  <div data-role="page" id="about">
+    <div data-role="header">
+      <h1>About PCCOER</h1>
+    </div>
+
+    <div data-role="content">
+      <p>This is the About page.</p>
+    </div>
+
+    <div data-role="footer">
+      <h4>Back to <a href="#home">Home</a></h4>
+    </div>
+  </div>
+
+  <!-- Department Page -->
+  <div data-role="page" id="dept">
+    <div data-role="header">
+      <h1>Departments</h1>
+    </div>
+
+    <div data-role="content">
+      <p>List of Departments in PCCOER.</p>
+    </div>
+
+    <div data-role="footer">
+      <h4>Back to <a href="#home">Home</a></h4>
+    </div>
+  </div>
+
+  <!-- Contact Page -->
+  <div data-role="page" id="contact">
+    <div data-role="header">
+      <h1>Contact Us</h1>
+    </div>
+
+    <div data-role="content">
+      <p>Email: info@pccoer.com</p>
+      <p>Phone: 1234567890</p>
+    </div>
+
+    <div data-role="footer">
+      <h4>Back to <a href="#home">Home</a></h4>
+    </div>
+  </div>
+
+</body>
+</html>
